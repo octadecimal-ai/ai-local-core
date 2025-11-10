@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.dev/logs/cursor/*.log
+.wireguard/logs/
+
+# WireGuard configuration (zawiera klucze prywatne!)
+.wireguard/
+*.conf
+!scripts/*.conf.example
+
+# Models (duże pliki)
+models/
+*.bin
+*.safetensors
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Environment
+.env
+.env.local
+
+# Build
+build/
+dist/
+*.egg-info/
+
