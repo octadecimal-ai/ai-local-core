@@ -17,6 +17,58 @@
  *   OLLAMA_URL - URL do lokalnego Ollama (domyślnie: http://localhost:11434)
  */
 
+/**
+ * Załaduj zmienne środowiskowe z pliku .env (jeśli istnieje)
+ */
+function loadEnvFile(string $projectDir): void
+{
+    $envPath = $projectDir . '/.env';
+    if (!is_file($envPath) || !is_readable($envPath)) {
+        return;
+    }
+
+    $lines = file($envPath, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    if ($lines === false) {
+        return;
+    }
+
+    foreach ($lines as $line) {
+        $line = trim($line);
+
+        // Pomijamy komentarze
+        if ($line === '' || str_starts_with($line, '#')) {
+            continue;
+        }
+
+        // Podziel klucz=wartość
+        $parts = explode('=', $line, 2);
+        if (count($parts) !== 2) {
+            continue;
+        }
+
+        [$key, $value] = $parts;
+        $key = trim($key);
+        $value = trim($value);
+
+        // Usuń otaczające cudzysłowy
+        if (
+            (str_starts_with($value, '"') && str_ends_with($value, '"')) ||
+            (str_starts_with($value, "'") && str_ends_with($value, "'"))
+        ) {
+            $value = substr($value, 1, -1);
+        }
+
+        if ($key !== '') {
+            putenv(sprintf('%s=%s', $key, $value));
+            $_ENV[$key] = $value;
+            $_SERVER[$key] = $value;
+        }
+    }
+}
+
+$projectDir = dirname(__FILE__);
+loadEnvFile($projectDir);
+
 // Pobierz argumenty z linii poleceń
 $apiUrl = null;
 $pollInterval = null;
@@ -73,8 +125,12 @@ while (true) {
         if ($response === false || $httpCode !== 200) {
             if ($curlError) {
                 echo "  ⚠️  Błąd połączenia: {$curlError}\n";
+                echo "  🌐 Ollama URL: {$ollamaUrl}\n";
+                echo "  🌐 Poll URL: {$pollUrl}\n";     
             } else {
                 echo "  ⚠️  Błąd HTTP: {$httpCode}\n";
+                echo "  🌐 Ollama URL: {$ollamaUrl}\n";
+                echo "  🌐 Poll URL: {$pollUrl}\n"; 
             }
             echo "  💤 Czekam {$pollInterval} sekund...\n\n";
             sleep($pollInterval);
@@ -87,6 +143,8 @@ while (true) {
             // Brak zadań
             echo "  ✅ Brak zadań w kolejce\n";
             echo "  💤 Czekam {$pollInterval} sekund...\n\n";
+            echo "  🌐 Ollama URL: {$ollamaUrl}\n";
+            echo "  🌐 Poll URL: {$pollUrl}\n"; 
             sleep($pollInterval);
             continue;
         }
