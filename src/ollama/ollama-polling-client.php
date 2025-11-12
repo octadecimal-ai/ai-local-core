@@ -7,9 +7,10 @@
  * Jeśli tak, przetwarza przez Ollama i zwraca odpowiedź.
  * 
  * Użycie:
- *   php ollama-polling-client.php
- *   php ollama-polling-client.php --api-url=https://waldus.cloud/api/v1
- *   php ollama-polling-client.php --poll-interval=5
+ *   php src/ollama/ollama-polling-client.php
+ *   php src/ollama/ollama-polling-client.php --api-url=https://waldus.cloud/api/v1
+ *   php src/ollama/ollama-polling-client.php --poll-interval=5
+ *   lub użyj głównego skryptu: ./start.sh
  * 
  * Wymagane zmienne środowiskowe:
  *   OLLAMA_POLLING_API_URL - URL do API (domyślnie: https://waldus.cloud/api/v1)
