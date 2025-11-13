@@ -1,6 +1,6 @@
 """
 Router FastAPI dla Ollama
-Migracja z Flask: /ollama/chat
+Endpoint: /ollama/chat
 """
 
 from fastapi import APIRouter, HTTPException, Depends

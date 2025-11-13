@@ -1,9 +1,8 @@
 """
 API server module
-Flask API server dla lokalnych usług ML/LLM
+FastAPI server dla lokalnych usług ML/LLM
 """
 
-from .server import app
+from .main import app
 
 __all__ = ['app']
-

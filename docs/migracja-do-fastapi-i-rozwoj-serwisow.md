@@ -38,21 +38,17 @@ source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate  # Windows
 ```
 
-### 1.3. Backup istniejącego kodu - niepotrzebne - pomijamy
+### 1.3. Przygotowanie repozytorium
 
-**WAŻNE:** Przed rozpoczęciem migracji wykonaj backup:
+Utwórz branch dla migracji:
 
 ```bash
-# Utwórz branch dla migracji
 git checkout -b feature/migracja-fastapi
-
-# Lub skopiuj istniejący server.py
-cp src/api/server.py src/api/server.py.flask-backup
 ```
 
 ---
 
-## 2. MIGRACJA Z FLASK DO FASTAPI
+## 2. IMPLEMENTACJA FASTAPI
 
 ### 2.1. Aktualizacja requirements.txt
 
@@ -93,10 +89,9 @@ Utwórz modularną strukturę:
 src/
 ├── api/
 │   ├── __init__.py
-│   ├── main.py              # Główny plik FastAPI (nowy)
-│   ├── config.py             # Konfiguracja (nowy)
-│   ├── dependencies.py       # Zależności (nowy)
-│   └── server.py             # Flask (stary, do usunięcia po migracji)
+│   ├── main.py              # Główny plik FastAPI
+│   ├── config.py             # Konfiguracja
+│   └── dependencies.py       # Zależności
 │
 ├── modules/
 │   ├── __init__.py
@@ -139,6 +134,8 @@ touch src/modules/joker/{__init__.py,router.py,service.py,models.py}
 touch src/modules/joke_analyser/{__init__.py,router.py,service.py,models.py}
 touch src/api/{main.py,config.py,dependencies.py}
 ```
+
+**Uwaga:** Stary plik `src/api/server.py` (Flask) został usunięty, ponieważ serwer nie działał jeszcze produkcyjnie i nie ma potrzeby zachowania kompatybilności wstecznej.
 
 ### 2.3. Konfiguracja (config.py)
 
@@ -346,7 +343,7 @@ Utwórz `src/modules/image/router.py`:
 ```python
 """
 Router FastAPI dla opisu obrazków
-Migracja z Flask: /describe
+Endpoint: /describe
 """
 
 from fastapi import APIRouter, HTTPException, Depends
@@ -419,7 +416,7 @@ Utwórz `src/modules/ollama/router.py`:
 ```python
 """
 Router FastAPI dla Ollama
-Migracja z Flask: /ollama/chat
+Endpoint: /ollama/chat
 """
 
 from fastapi import APIRouter, HTTPException, Depends
@@ -1473,16 +1470,16 @@ PORT=5002
 
 ---
 
-## 12. CHECKLIST MIGRACJI
+## 12. CHECKLIST IMPLEMENTACJI
 
-- [ ] Backup istniejącego kodu Flask
-- [ ] Aktualizacja `requirements.txt` (FastAPI, uvicorn, pydantic)
+- [x] Aktualizacja `requirements.txt` (FastAPI, uvicorn, pydantic)
 - [ ] Instalacja zależności (`pip install -r requirements.txt`)
-- [ ] Utworzenie struktury katalogów modularnej
-- [ ] Utworzenie `config.py` z konfiguracją
-- [ ] Utworzenie `main.py` z FastAPI app
-- [ ] Migracja endpointów Image Description
-- [ ] Migracja endpointów Ollama
+- [x] Utworzenie struktury katalogów modularnej
+- [x] Utworzenie `config.py` z konfiguracją
+- [x] Utworzenie `main.py` z FastAPI app
+- [x] Implementacja endpointów Image Description
+- [x] Implementacja endpointów Ollama
+- [x] Usunięcie starych plików Flask (server.py)
 - [ ] Testowanie istniejących endpointów
 - [ ] Implementacja serwisu ai-joker
 - [ ] Implementacja serwisu ai-joke-analyser

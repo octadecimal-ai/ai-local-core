@@ -1,6 +1,6 @@
 """
 Router FastAPI dla opisu obrazków
-Migracja z Flask: /describe
+Endpoint: /describe
 """
 
 from fastapi import APIRouter, HTTPException, Depends
