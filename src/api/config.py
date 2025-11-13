@@ -32,7 +32,7 @@ class ServiceConfig(BaseSettings):
     
     # Joker (Bielik 7B)
     JOKER_MODEL_PATH: Optional[str] = None  # Ścieżka do modelu lokalnego
-    JOKER_MODEL_NAME: str = "bielik-7b-v0.1"
+    JOKER_MODEL_NAME: str = "piotradamczyk/bielik-7b-v0.1"
     JOKER_USE_GPU: bool = True
     JOKER_QUANTIZATION: str = "int8"  # int4, int8, fp16
     

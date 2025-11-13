@@ -17,3 +17,6 @@ python-multipart>=0.0.6
 # Opcjonalnie (dla lepszej dokumentacji)
 python-jose[cryptography]>=3.3.0
 
+# Dla ai-joke-analyser
+spacy>=3.7.0
+
