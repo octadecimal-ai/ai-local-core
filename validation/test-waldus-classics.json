@@ -1,0 +1,108 @@
+{
+  "dataset_name": "Waldus Classic Jokes - First Generation",
+  "date_created": "2025-11-14",
+  "source": "waldus-api/docs/generated-by-ai/20251020-classical-waldus-old-system.md",
+  "jokes": [
+    {
+      "id": 1,
+      "text": "Automatyzacja z AI? Brzmi jak moja była - też twierdziła że jest inteligentna, a kończyło się na 'error 404: brain not found' 🤖💔",
+      "metadata": {
+        "line": 1,
+        "expected_theories": ["incongruity", "setup_punchline", "semantic_shift"],
+        "context": "Tech + relationship humor, pierwszy żart Waldusia",
+        "emoji_count": 2
+      }
+    },
+    {
+      "id": 2,
+      "text": "No pięknie, szukosz automacji jak Ślązok promocji na wongiel! 😏 A ten formularz kontaktowy tak skomplikowany, że nawet ChatGPT by się pogubiło... Może napiszę za Ciebie 'Dzień dobry, jestem nieogarem'? 🤖",
+      "metadata": {
+        "line": 2,
+        "expected_theories": ["archetype", "incongruity", "setup_punchline"],
+        "context": "Śląski stereotyp + sarkastyczna pomoc",
+        "emoji_count": 2
+      }
+    },
+    {
+      "id": 3,
+      "text": "Kolejna firma z AI? Przecież w Sosnowcu już wszystkie babcie handlują sztuczną inteligencją na bazarze, razem ze skarpetkami i ogórkami 🥒 A ten formularz to bardziej skomplikowany niż instrukcja składania mebli z IKEI 😩",
+      "metadata": {
+        "line": 3,
+        "expected_theories": ["absurd_escalation", "archetype", "incongruity"],
+        "context": "Sosnowiec meme + absurd (babcie sprzedają AI)",
+        "emoji_count": 2
+      }
+    },
+    {
+      "id": 4,
+      "text": "Ło Panie, automatyzacja z AI? To jak mój wujek ze Śląska co myślał że jego Polonez sam się naprawił, bo przestał pukać jak się zepsuł 😂 A ten formularz kontaktowy przyjmuje też modlitwy, czy tylko prośby o cud? 🤖",
+      "metadata": {
+        "line": 8,
+        "expected_theories": ["archetype", "absurd_escalation", "incongruity"],
+        "context": "Wujek ze Śląska archetype + absurdalna logika",
+        "emoji_count": 2
+      }
+    },
+    {
+      "id": 5,
+      "text": "Automatyzacja z AI? Brzmi jak plan Elona Muska na zastąpienie swojej byłej robotem - ambitnie, ale czy na pewno tego chcesz? 🤖💔",
+      "metadata": {
+        "line": 9,
+        "expected_theories": ["incongruity", "psychoanalysis", "humor_atoms"],
+        "context": "Elon Musk reference + egzystencjalne pytanie",
+        "emoji_count": 2
+      }
+    },
+    {
+      "id": 6,
+      "text": "Formularz kontaktowy? Serio? W 2025 nadal używacie formularzy zamiast telepatycznego API?",
+      "metadata": {
+        "line": 17,
+        "expected_theories": ["incongruity", "timing", "semantic_shift"],
+        "context": "Tech absurd - telepatyczne API",
+        "emoji_count": 0
+      }
+    },
+    {
+      "id": 7,
+      "text": "Te formularze kontaktowe to jak randki w ciemno - nigdy nie wiesz czy odpisze człowiek czy bot udający pracownika z Radomia 😅",
+      "metadata": {
+        "line": 22,
+        "expected_theories": ["setup_punchline", "incongruity", "semantic_shift"],
+        "context": "Porównanie + twist z Radomiem",
+        "emoji_count": 1
+      }
+    },
+    {
+      "id": 8,
+      "text": "Octadecimal? Brzmi jak nazwa tabletków na ból głowy, które przepisują w Tworkach... ale przynajmniej macie AI, nie to co te janusze biznesu ze swoimi Excelami 💊🤖",
+      "metadata": {
+        "line": 25,
+        "expected_theories": ["semantic_shift", "archetype", "incongruity"],
+        "context": "Gra słowna + Tworki + Janusze",
+        "emoji_count": 2
+      }
+    },
+    {
+      "id": 9,
+      "text": "Łooo panie, kolejno firma od AI? Jakbyś był w Sosnowcu, to bym ci pokazał prawdziwą automatyzację - mój wujek ma automat z piwem co sam wydaje resztę 🍺😂",
+      "metadata": {
+        "line": 56,
+        "expected_theories": ["absurd_escalation", "archetype", "incongruity"],
+        "context": "Absurdalna definicja automatyzacji",
+        "emoji_count": 2
+      }
+    },
+    {
+      "id": 10,
+      "text": "Ten formularz kontaktowy pewnie tak niezawodny jak Windows podczas aktualizacji - działa, aż przestanie 🤪",
+      "metadata": {
+        "line": 62,
+        "expected_theories": ["setup_punchline", "incongruity", "timing"],
+        "context": "Windows meme + timing punchline",
+        "emoji_count": 1
+      }
+    }
+  ]
+}
+
