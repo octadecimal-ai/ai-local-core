@@ -1,0 +1,301 @@
+{
+  "dataset_name": "Waldus Classic Jokes - First Generation",
+  "analyzed_at": "2025-11-14T13:52:42.868395",
+  "summary": {
+    "total_jokes": 10,
+    "avg_score": 2.41,
+    "min_score": 1.6,
+    "max_score": 3.4,
+    "expected_match_rate": 30.0,
+    "theory_frequency": {
+      "semantic_shift": 5,
+      "reverse_engineering": 7,
+      "setup_punchline": 10,
+      "timing": 6,
+      "incongruity": 1,
+      "archetype": 1
+    }
+  },
+  "results": [
+    {
+      "joke_id": 1,
+      "text": "Automatyzacja z AI? Brzmi jak moja była - też twierdziła że jest inteligentna, a kończyło się na 'error 404: brain not found' 🤖💔",
+      "overall_score": 2.1,
+      "theory_scores": {
+        "setup_punchline": 4.0,
+        "incongruity": 0.0,
+        "semantic_shift": 5.5,
+        "timing": 4.0,
+        "absurd_escalation": 0.0,
+        "psychoanalysis": 0.0,
+        "archetype": 0.0,
+        "humor_atoms": 1.0,
+        "reverse_engineering": 4.5
+      },
+      "top3_theories": [
+        "semantic_shift",
+        "reverse_engineering",
+        "setup_punchline"
+      ],
+      "expected_theories": [
+        "incongruity",
+        "setup_punchline",
+        "semantic_shift"
+      ],
+      "expected_match_count": 2,
+      "context": "Tech + relationship humor, pierwszy żart Waldusia"
+    },
+    {
+      "joke_id": 2,
+      "text": "No pięknie, szukosz automacji jak Ślązok promocji na wongiel! 😏 A ten formularz kontaktowy tak skomplikowany, że nawet ChatGPT by się pogubiło... Może napiszę za Ciebie 'Dzień dobry, jestem nieogarem'? 🤖",
+      "overall_score": 3.4,
+      "theory_scores": {
+        "setup_punchline": 7.5,
+        "incongruity": 0.0,
+        "semantic_shift": 3.5,
+        "timing": 7.5,
+        "absurd_escalation": 1.5,
+        "psychoanalysis": 1.5,
+        "archetype": 0.0,
+        "humor_atoms": 1.0,
+        "reverse_engineering": 8.0
+      },
+      "top3_theories": [
+        "reverse_engineering",
+        "setup_punchline",
+        "timing"
+      ],
+      "expected_theories": [
+        "archetype",
+        "incongruity",
+        "setup_punchline"
+      ],
+      "expected_match_count": 1,
+      "context": "Śląski stereotyp + sarkastyczna pomoc"
+    },
+    {
+      "joke_id": 3,
+      "text": "Kolejna firma z AI? Przecież w Sosnowcu już wszystkie babcie handlują sztuczną inteligencją na bazarze, razem ze skarpetkami i ogórkami 🥒 A ten formularz to bardziej skomplikowany niż instrukcja składania mebli z IKEI 😩",
+      "overall_score": 1.8,
+      "theory_scores": {
+        "setup_punchline": 7.0,
+        "incongruity": 1.5,
+        "semantic_shift": 0.0,
+        "timing": 2.5,
+        "absurd_escalation": 1.5,
+        "psychoanalysis": 1.5,
+        "archetype": 0.0,
+        "humor_atoms": 1.0,
+        "reverse_engineering": 1.5
+      },
+      "top3_theories": [
+        "setup_punchline",
+        "timing",
+        "incongruity"
+      ],
+      "expected_theories": [
+        "absurd_escalation",
+        "archetype",
+        "incongruity"
+      ],
+      "expected_match_count": 1,
+      "context": "Sosnowiec meme + absurd (babcie sprzedają AI)"
+    },
+    {
+      "joke_id": 4,
+      "text": "Ło Panie, automatyzacja z AI? To jak mój wujek ze Śląska co myślał że jego Polonez sam się naprawił, bo przestał pukać jak się zepsuł 😂 A ten formularz kontaktowy przyjmuje też modlitwy, czy tylko prośby o cud? 🤖",
+      "overall_score": 2.8,
+      "theory_scores": {
+        "setup_punchline": 10.0,
+        "incongruity": 0.0,
+        "semantic_shift": 2.0,
+        "timing": 5.5,
+        "absurd_escalation": 0.0,
+        "psychoanalysis": 0.0,
+        "archetype": 2.5,
+        "humor_atoms": 1.0,
+        "reverse_engineering": 4.5
+      },
+      "top3_theories": [
+        "setup_punchline",
+        "timing",
+        "reverse_engineering"
+      ],
+      "expected_theories": [
+        "archetype",
+        "absurd_escalation",
+        "incongruity"
+      ],
+      "expected_match_count": 0,
+      "context": "Wujek ze Śląska archetype + absurdalna logika"
+    },
+    {
+      "joke_id": 5,
+      "text": "Automatyzacja z AI? Brzmi jak plan Elona Muska na zastąpienie swojej byłej robotem - ambitnie, ale czy na pewno tego chcesz? 🤖💔",
+      "overall_score": 3.2,
+      "theory_scores": {
+        "setup_punchline": 7.5,
+        "incongruity": 1.5,
+        "semantic_shift": 4.0,
+        "timing": 5.5,
+        "absurd_escalation": 0.0,
+        "psychoanalysis": 0.0,
+        "archetype": 4.0,
+        "humor_atoms": 1.5,
+        "reverse_engineering": 4.5
+      },
+      "top3_theories": [
+        "setup_punchline",
+        "timing",
+        "reverse_engineering"
+      ],
+      "expected_theories": [
+        "incongruity",
+        "psychoanalysis",
+        "humor_atoms"
+      ],
+      "expected_match_count": 0,
+      "context": "Elon Musk reference + egzystencjalne pytanie"
+    },
+    {
+      "joke_id": 6,
+      "text": "Formularz kontaktowy? Serio? W 2025 nadal używacie formularzy zamiast telepatycznego API?",
+      "overall_score": 1.8,
+      "theory_scores": {
+        "setup_punchline": 7.5,
+        "incongruity": 1.5,
+        "semantic_shift": 0.0,
+        "timing": 3.5,
+        "absurd_escalation": 0.0,
+        "psychoanalysis": 0.0,
+        "archetype": 0.0,
+        "humor_atoms": 1.0,
+        "reverse_engineering": 3.0
+      },
+      "top3_theories": [
+        "setup_punchline",
+        "timing",
+        "reverse_engineering"
+      ],
+      "expected_theories": [
+        "incongruity",
+        "timing",
+        "semantic_shift"
+      ],
+      "expected_match_count": 1,
+      "context": "Tech absurd - telepatyczne API"
+    },
+    {
+      "joke_id": 7,
+      "text": "Te formularze kontaktowe to jak randki w ciemno - nigdy nie wiesz czy odpisze człowiek czy bot udający pracownika z Radomia 😅",
+      "overall_score": 1.8,
+      "theory_scores": {
+        "setup_punchline": 6.0,
+        "incongruity": 0.0,
+        "semantic_shift": 2.0,
+        "timing": 0.0,
+        "absurd_escalation": 1.0,
+        "psychoanalysis": 0.0,
+        "archetype": 0.0,
+        "humor_atoms": 1.0,
+        "reverse_engineering": 6.5
+      },
+      "top3_theories": [
+        "reverse_engineering",
+        "setup_punchline",
+        "semantic_shift"
+      ],
+      "expected_theories": [
+        "setup_punchline",
+        "incongruity",
+        "semantic_shift"
+      ],
+      "expected_match_count": 2,
+      "context": "Porównanie + twist z Radomiem"
+    },
+    {
+      "joke_id": 8,
+      "text": "Octadecimal? Brzmi jak nazwa tabletków na ból głowy, które przepisują w Tworkach... ale przynajmniej macie AI, nie to co te janusze biznesu ze swoimi Excelami 💊🤖",
+      "overall_score": 2.9,
+      "theory_scores": {
+        "setup_punchline": 7.5,
+        "incongruity": 1.5,
+        "semantic_shift": 4.0,
+        "timing": 6.5,
+        "absurd_escalation": 0.0,
+        "psychoanalysis": 0.0,
+        "archetype": 2.5,
+        "humor_atoms": 1.5,
+        "reverse_engineering": 3.0
+      },
+      "top3_theories": [
+        "setup_punchline",
+        "timing",
+        "semantic_shift"
+      ],
+      "expected_theories": [
+        "semantic_shift",
+        "archetype",
+        "incongruity"
+      ],
+      "expected_match_count": 1,
+      "context": "Gra słowna + Tworki + Janusze"
+    },
+    {
+      "joke_id": 9,
+      "text": "Łooo panie, kolejno firma od AI? Jakbyś był w Sosnowcu, to bym ci pokazał prawdziwą automatyzację - mój wujek ma automat z piwem co sam wydaje resztę 🍺😂",
+      "overall_score": 2.7,
+      "theory_scores": {
+        "setup_punchline": 10.0,
+        "incongruity": 0.0,
+        "semantic_shift": 4.0,
+        "timing": 2.5,
+        "absurd_escalation": 0.0,
+        "psychoanalysis": 0.0,
+        "archetype": 2.5,
+        "humor_atoms": 1.0,
+        "reverse_engineering": 4.5
+      },
+      "top3_theories": [
+        "setup_punchline",
+        "reverse_engineering",
+        "semantic_shift"
+      ],
+      "expected_theories": [
+        "absurd_escalation",
+        "archetype",
+        "incongruity"
+      ],
+      "expected_match_count": 0,
+      "context": "Absurdalna definicja automatyzacji"
+    },
+    {
+      "joke_id": 10,
+      "text": "Ten formularz kontaktowy pewnie tak niezawodny jak Windows podczas aktualizacji - działa, aż przestanie 🤪",
+      "overall_score": 1.6,
+      "theory_scores": {
+        "setup_punchline": 3.0,
+        "incongruity": 0.0,
+        "semantic_shift": 2.0,
+        "timing": 0.0,
+        "absurd_escalation": 1.5,
+        "psychoanalysis": 0.0,
+        "archetype": 5.0,
+        "humor_atoms": 1.8,
+        "reverse_engineering": 1.5
+      },
+      "top3_theories": [
+        "archetype",
+        "setup_punchline",
+        "semantic_shift"
+      ],
+      "expected_theories": [
+        "setup_punchline",
+        "incongruity",
+        "timing"
+      ],
+      "expected_match_count": 1,
+      "context": "Windows meme + timing punchline"
+    }
+  ]
+}
