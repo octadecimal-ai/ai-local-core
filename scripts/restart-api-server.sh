@@ -14,10 +14,13 @@ cd "$PROJECT_DIR"
 # Aktywuj virtual environment jeśli istnieje
 if [ -d "$PROJECT_DIR/venv" ]; then
     source "$PROJECT_DIR/venv/bin/activate"
+    UVICORN_CMD="$PROJECT_DIR/venv/bin/uvicorn"
+else
+    UVICORN_CMD="uvicorn"
 fi
 
-# Zatrzymaj poprzednie instancje serwera
-EXISTING_PIDS="$(pgrep -f "src/api/server.py" || true)"
+# Zatrzymaj poprzednie instancje serwera (FastAPI przez uvicorn)
+EXISTING_PIDS="$(pgrep -f "uvicorn.*src.api.main:app\|uvicorn.*api.main:app" || true)"
 if [ -n "$EXISTING_PIDS" ]; then
     echo "🔄 Wykryto działający serwer API (PID: $EXISTING_PIDS). Zatrzymuję..."
     kill $EXISTING_PIDS || true
@@ -27,8 +30,9 @@ fi
 PORT="${PORT:-5001}"
 HOST="${HOST:-127.0.0.1}"
 
-echo "🚀 Uruchamiam serwer API na ${HOST}:${PORT}..."
-nohup env PORT="$PORT" HOST="$HOST" python3 "$PROJECT_DIR/src/api/server.py" >> "$LOG_DIR/api-server.log" 2>&1 &
+echo "🚀 Uruchamiam serwer FastAPI na ${HOST}:${PORT}..."
+# Użyj uvicorn z venv i ustaw PYTHONPATH
+nohup env PORT="$PORT" HOST="$HOST" PYTHONPATH="$PROJECT_DIR/src:$PYTHONPATH" "$UVICORN_CMD" src.api.main:app --host "$HOST" --port "$PORT" >> "$LOG_DIR/api-server.log" 2>&1 &
 NEW_PID=$!
 
 echo "✅ Serwer API działa w tle (PID: $NEW_PID)"
