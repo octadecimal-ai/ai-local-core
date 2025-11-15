@@ -1,0 +1,215 @@
+{
+  "model": "llama3.1:8b",
+  "base_url": "http://localhost:11434",
+  "timestamp": "2025-11-14T17:46:41.637004",
+  "theories_tested": [
+    "setup_punchline",
+    "incongruity",
+    "semantic_shift",
+    "timing",
+    "absurd_escalation",
+    "psychoanalysis",
+    "archetype",
+    "humor_atoms",
+    "reverse_engineering"
+  ],
+  "jokes_tested": 1,
+  "results": [
+    {
+      "joke_id": 1,
+      "joke_text": "Automatyzacja z AI? Brzmi jak moja była - też twierdziła że jest inteligentna, a kończyło się na 'error 404: brain not found' 🤖💔",
+      "metadata": {
+        "line": 1,
+        "expected_theories": [
+          "incongruity",
+          "setup_punchline",
+          "semantic_shift"
+        ],
+        "context": "Tech + relationship humor, pierwszy żart Waldusia",
+        "emoji_count": 2
+      },
+      "results": [
+        {
+          "theory": "setup_punchline",
+          "success": true,
+          "analysis": {
+            "setup": "Automatyzacja z AI? Brzmi jak moja była",
+            "expectation_created": "o to, że automatyzacja z AI będzie podobna do jego własnej inteligencji",
+            "twist": "moment 'error 404: brain not found'",
+            "new_frame": "rzeczywistość, w której maszyna nie ma mózgu i jest więc niewykonalna",
+            "punchline": "żart o tym, że jego własna inteligencja była błędem",
+            "why_it_works": "żart działa dlatego, że tworzy niespodziewaną przeszkodę w oczekiwaniach słuchacza - zamiast być inteligentną, maszyna okazuje się niezdolna do myślenia",
+            "timing_score": 8,
+            "structure_score": 9
+          },
+          "raw_response": "Oto analiza tego żartu w formacie JSON:\n\n{\n  \"setup\": \"Automatyzacja z AI? Brzmi jak moja była\",\n  \"expectation_created\": \"o to, że automatyzacja z AI będzie podobna do jego własnej inteligencji\",\n  \"twist\": \"moment 'error 404: brain not found'\",\n  \"new_frame\": \"rzeczywistość, w której maszyna nie ma mózgu i jest więc niewykonalna\",\n  \"punchline\": \"żart o tym, że jego własna inteligencja była błędem\",\n  \"why_it_works\": \"żart działa dlatego, że tworzy niespodziewaną przeszkodę w oczekiwaniach słuchacza - zamiast być inteligentną, maszyna okazuje się niezdolna do myślenia\",\n  \"timing_score\": 8,\n  \"structure_score\": 9\n}\n\nW tym żartie:\n\n* **Setup** tworzy oczekiwanie, że automatyzacja z AI będzie podobna do jego własnej inteligencji.\n* **Zwrot** następuje w momencie, gdy słyszymy \"error 404: brain not found\", co przesuwa ramę odniesienia na rzeczywistość, w której maszyna nie ma mózgu i jest więc niewykonalna.\n* **Punchline** rozwiązuje niespójność poprzez wyjaśnienie, że jego własna inteligencja była błędem, co sprawia, że logiczny skok działa.\n* **Analiza Timing**: Zwrot następuje stosunkowo szybko po setupie (8/10), a pauza przed punchline jest minimalna.",
+          "elapsed_ms": 27120.242834091187,
+          "model": "llama3.1:8b"
+        },
+        {
+          "theory": "incongruity",
+          "success": true,
+          "analysis": {
+            "incongruity_type": "naruszenie_oczekiwania",
+            "frame_1": "Automatyzacja z AI jest inteligentna i może wykonywać złożone zadania",
+            "frame_2": "Moja była, moja żona, również twierdziła że jest inteligentna, ale okazało się to błędem",
+            "resolution_quality": "całkowicie",
+            "surprise_factor": 8,
+            "accessibility": 9,
+            "incongruity_score": 7
+          },
+          "raw_response": "Oto analiza tegoż żartu w formacie JSON:\n\n{\n  \"incongruity_type\": \"naruszenie_oczekiwania\",\n  \"frame_1\": \"Automatyzacja z AI jest inteligentna i może wykonywać złożone zadania\",\n  \"frame_2\": \"Moja była, moja żona, również twierdziła że jest inteligentna, ale okazało się to błędem\",\n  \"resolution_quality\": \"całkowicie\",\n  \"surprise_factor\": 8,\n  \"accessibility\": 9,\n  \"incongruity_score\": 7\n}\n\n**Krok 1: Zidentyfikuj Niespójność**\n\n- Dwie niekompatybilne ramy odniesienia się zderzają: Oczekiwania dotyczące inteligencji i umiejętności AI są porównywane do oczekiwań dotyczących inteligencji i umiejętności żony autora.\n- Oczekiwanie zostaje naruszone: Autorytet (AI) jest porównany do nieautorytetu (żona), co powoduje niespójność.\n- Logiczna sprzeczność istnieje: AI, która powinna być inteligentna i skuteczna, została porównana do żony autora, która okazała się błędem.\n\n**Krok 2: Jakość Rozwiązania**\n\n- Niespójność zostaje rozwiązana (całkowicie): Autorytet (AI) jest zderzany z nieautorytetem (żona), co powoduje niespójność, która została całkowicie rozwiązana.\n- Satysfakcjonujące jest rozwiązanie: Tak, ponieważ autor wyraźnie podkreśla różnicę między inteligencją AI a jego żony.\n- Moment \"aha!\" istnieje: Tak, ponieważ czytelnik może dostrzec niespójność i zrozumieć, dlaczego autor porównuje AI do swojej żony.\n\n**Krok 3: Siła Niespójności**\n\n- Kontrast jest silny (umiarkowany): Porównanie inteligencji AI do inteligencji żony autora powoduje umiarkowaną niespójność.\n- Zwrot nieoczekiwany: Tak, ponieważ czytelnik może oczekiwać, że autor będzie mówić o zaletach AI, a nie porównywał jej do swojej żony.\n- Oceń czynnik zaskoczenia: 8/10\n\n**Krok 4: Przetwarzanie Poznawcze**\n\n- Ilość pracy umysłowej wymagana do \"zrozumienia\": Mała, ponieważ czytelnik może szybko dostrzec niespójność.\n- Dostępność: Wysoka (9/10), ponieważ żart nie wymaga specjalistycznej wiedzy i jest łatwy do zrozumienia.",
+          "elapsed_ms": 33869.59004402161,
+          "model": "llama3.1:8b"
+        },
+        {
+          "theory": "semantic_shift",
+          "success": true,
+          "analysis": {
+            "shifted_word": "moja była",
+            "original_meaning": "moja dziewczyna/żona",
+            "new_meaning": "komputerowa aplikacja z AI",
+            "shift_type": "metonimia",
+            "shift_smoothness": 8,
+            "ambiguity_quality": 9,
+            "wordplay_score": 7,
+            "semantic_shift_score": 6
+          },
+          "raw_response": "Oto analiza żartu w formacie JSON:\n\n{\n  \"shifted_word\": \"moja była\",\n  \"original_meaning\": \"moja dziewczyna/żona\",\n  \"new_meaning\": \"komputerowa aplikacja z AI\",\n  \"shift_type\": \"metonimia\",\n  \"shift_smoothness\": 8,\n  \"ambiguity_quality\": 9,\n  \"wordplay_score\": 7,\n  \"semantic_shift_score\": 6\n}\n\n**Krok 1: Zidentyfikuj Przesunięcie Znaczeniowego**\n\n* Słowo/fraza która się przesuwa: \"moja była\"\n* Oryginalne znaczenie: osoba bliska, dziewczyna/żona\n* Nowe znaczenie: komputerowa aplikacja z AI\n* Kontekst wymusza przesunięcie: żart dotyczy automatyzacji i AI, co sprawia, że słowo \"była\" jest używane w nowy sposób.\n\n**Krok 2: Mechanizm Przesunięcia**\n\n* Typ przesunięcia: metonimia (przesuwanie znaczenia od części do całości)\n* Naturalność przesunięcia: wysoka, ponieważ słowo \"była\" jest często używane w kontekście komputerów i aplikacji\n* Płynność przesunięcia: 8/10 (przesunięcie jest dość naturalne, ale może być nieco sztuczne dla osób niezainteresowanych technologią)\n\n**Krok 3: Wykorzystanie Wieloznaczności**\n\n* Dobrze żart wykorzystuje wieloznaczność: tak, ponieważ słowo \"była\" ma dwa różne znaczenia w zależności od kontekstu\n* Czy wieloznaczność jest oczywista czy ukryta?: oczywista, ponieważ żart nie wymaga specjalnego pojmowania języka\n* Jakość wieloznaczności: 9/10 (żart bardzo dobrze wykorzystuje różne znaczenia słowa \"była\")\n\n**Krok 4: Jakość Gry Słów**\n\n* Sprytna jest gra słów?: tak, ponieważ żart skutecznie wykorzystuje słowo \"była\" w nowy sposób\n* Czy wydaje się wymuszona czy naturalna?: naturalna, ponieważ przesunięcie jest dość naturalne i nie sztuczne\n* Score gry słów: 7/10 (żart jest dość sprytnie napisany, ale może być nieco zbyt oczywisty)",
+          "elapsed_ms": 29757.53092765808,
+          "model": "llama3.1:8b"
+        },
+        {
+          "theory": "timing",
+          "success": true,
+          "analysis": {
+            "pacing": "IDEALNE",
+            "sentence_lengths": [
+              7,
+              4
+            ],
+            "rhythm_variation": 8,
+            "pause_effectiveness": 9,
+            "delivery_timing": 10,
+            "timing_score": 9
+          },
+          "raw_response": "Oto analiza żartu według ram analizy:\n\n**Krok 1: Analiza Tempa**\n- Tempo żartu jest IDEALNE. Rozwija się w miarę, nie za szybko ani za wolno.\n- Istnieje narastanie, ale nie jest to natychmiastowa zapłata.\n\n**Krok 2: Wykrywanie Rytmu**\n- Wzorzec długości zdań jest zróżnicowany. Pierwsze zdanie ma 7 słów, drugie 4.\n- Istnieje wariacja w rytmie, co utrudnia przewidywanie kiedy nastąpi punchline.\n\n**Krok 3: Umiejscowienie Pauz**\n- Naturalna pauza przed \"error 404: brain not found\" jest dramatyczna.\n- Skuteczność pauzy jest wysoka (9/10).\n\n**Krok 4: Timing Dostawy**\n- Punchline jest idealnie umieszczony, nie za szybko ani za wolno.\n\n**Format Wyjścia (JSON):**\n{\n  \"pacing\": \"IDEALNE\",\n  \"sentence_lengths\": [7, 4],\n  \"rhythm_variation\": 8,\n  \"pause_effectiveness\": 9,\n  \"delivery_timing\": 10,\n  \"timing_score\": 9\n}",
+          "elapsed_ms": 16313.569068908691,
+          "model": "llama3.1:8b"
+        },
+        {
+          "theory": "absurd_escalation",
+          "success": true,
+          "analysis": {
+            "initial_absurdity": 8,
+            "escalation_present": true,
+            "escalation_levels": 3,
+            "logical_breaks": [
+              {
+                "level": 1,
+                "description": "Porównanie 'mojej były' do AI"
+              },
+              {
+                "level": 2,
+                "description": "Użycie błędu HTTP w odniesieniu do inteligencji"
+              }
+            ],
+            "amplification_factor": 9,
+            "absurd_escalation_score": 9
+          },
+          "raw_response": "Oto analiza żartu według ram analizy:\n\n**Krok 1: Wykrywanie Absurdu**\n\n* Co jest absurdalne w żarcie? - Jesteśmy świadomi, że \"moja była\" nie może być inteligentna, ponieważ to my mówimy o jej braku inteligencji.\n* Jak realistyczny vs. absurdalny jest scenariusz? - Scenariusz jest całkowicie absurdalny, ponieważ AI nie może mieć \"była\" w sensie że była żywa istotą.\n* Oceń początkowy absurd: 8/10\n\n**Krok 2: Wzorzec Eskalacji**\n\n* Czy absurd eskaluje? (tak/nie) - Tak\n* Ile poziomów eskalacji? - 3\n\t+ Poziom 1: \"Automatyzacja z AI?\" sugeruje, że AI jest inteligentna.\n\t+ Poziom 2: \"Brzmi jak moja była\" sugeruje, że \"moja była\" również była inteligentna.\n\t+ Poziom 3: \"Error 404: brain not found\" sugeruje, że obie są nieistotne i nie mają umysłu.\n* Oceń siłę eskalacji: 9/10\n\n**Krok 3: Załamania Logiczne**\n\n* Gdzie logika się załamuje? - W momencie, gdy \"moja była\" jest porównywana do AI i obie są uznawane za inteligentne.\n* Ile załamań logicznych? - 2\n\t+ Załamanie 1: Porównanie \"mojej były\" do AI.\n\t+ Załamanie 2: Użycie błędu HTTP (\"Error 404\") w odniesieniu do inteligencji.\n* Oceń jakość załamania: 8/10\n\n**Krok 4: Wzmocnienie Absurdu**\n\n* O ile absurd się wzmacnia od początku do końca? - 9/10\n* Czy eskalacja jest satysfakcjonująca? - Tak\n* Oceń wzmocnienie: 9/10\n\n**Format Wyjścia (JSON):**\n{\n  \"initial_absurdity\": 8,\n  \"escalation_present\": true,\n  \"escalation_levels\": 3,\n  \"logical_breaks\": [\n    {\"level\": 1, \"description\": \"Porównanie 'mojej były' do AI\"},\n    {\"level\": 2, \"description\": \"Użycie błędu HTTP w odniesieniu do inteligencji\"}\n  ],\n  \"amplification_factor\": 9,\n  \"absurd_escalation_score\": 9\n}",
+          "elapsed_ms": 31675.42290687561,
+          "model": "llama3.1:8b"
+        },
+        {
+          "theory": "psychoanalysis",
+          "success": true,
+          "analysis": {
+            "psychological_mechanism": "przemieszczenie",
+            "characters": [
+              {
+                "name": "automatyzacja z AI",
+                "motywacje": "brak inteligencji, błąd systemowy"
+              },
+              {
+                "name": "była (matka)",
+                "motywacje": "chęć bycia inteligentną, brak umiejętności"
+              }
+            ],
+            "emotional_arc": "negatywny",
+            "conflict_present": true,
+            "resolution_present": false,
+            "subconscious_appeal": 8,
+            "psychoanalysis_score": 9
+          },
+          "raw_response": "Oto analiza żartu zastosowana w formacie JSON:\n\n{\n  \"psychological_mechanism\": \"przemieszczenie\",\n  \"characters\": [\n    {\n      \"name\": \"automatyzacja z AI\",\n      \"motywacje\": \"brak inteligencji, błąd systemowy\"\n    },\n    {\n      \"name\": \"była (matka)\",\n      \"motywacje\": \"chęć bycia inteligentną, brak umiejętności\"\n    }\n  ],\n  \"emotional_arc\": \"negatywny\",\n  \"conflict_present\": true,\n  \"resolution_present\": false,\n  \"subconscious_appeal\": 8,\n  \"psychoanalysis_score\": 9\n}\n\n**Krok 1: Głębia Psychologiczna**\nMechanizm psychologiczny w grze to przemieszczenie, ponieważ żart porusza temat braku inteligencji i błędów systemowych. Represja lub projekcja nie są tutaj widoczne.\n\n**Krok 2: Analiza Postaci**\nPostacie to automatyzacja z AI i była (matka). Motywacje pierwszej postaci to brak inteligencji i błąd systemowy, podczas gdy motywacje drugiej postaci to chęć bycia inteligentną, ale bez umiejętności.\n\n**Krok 3: Łuk Narracyjny**\nŁuk emocjonalny jest negatywny, ponieważ żart opisuje błąd systemowy i brak inteligencji. Konflikt jest tutaj obecny (automatyzacja z AI nie potrafi być inteligentna), ale rozwiązanie nie jest przedstawione.\n\n**Krok 4: Apel Podświadomy**\nPodświadome pragnienie/strach dotyczy braku pewności siebie i obawy o swoją inteligencję. Uniwersalność apelu polega na tym, że każdy może doświadczyć frustracji związanej z błędami systemowymi lub brakiem umiejętności.\n\nOcena psychoanalizy wynosi 9/10, ponieważ żart porusza głębokie tematy psychologiczne i jest bardzo subtelny w swoim apelu.",
+          "elapsed_ms": 25651.129007339478,
+          "model": "llama3.1:8b"
+        },
+        {
+          "theory": "archetype",
+          "success": true,
+          "analysis": {
+            "archetypes": [
+              "bohater",
+              "antybohater"
+            ],
+            "polish_specific": false,
+            "cultural_markers": [
+              "była inteligentna AI",
+              "error 404: brain not found"
+            ],
+            "cultural_resonance": 9,
+            "universality": 7,
+            "archetype_score": 9
+          },
+          "raw_response": "Oto analiza żartu według ram analizy:\n\n**Krok 1: Identyfikacja Archetypu**\n\n* Bohater (autor żartu) - porównuje siebie do inteligentnej AI, co sugeruje pewność siebie i samozadowolenie.\n* Antybohater (była inteligentna AI) - przedstawiona jako inteligentna, ale w rzeczywistości nie jest, co stanowi kontrast z bohaterem.\n* Błazen (nieobecny) - żart nie zawiera elementu błazna.\n\nSpecyficzność dla Polski: Nie, archetypy te są uniwersalne i mogą być spotykane w innych kulturach.\n\nKlarowność archetypu: 8/10 (archetypy są dość wyraźnie widoczne, ale niektóre aspekty mogą wymagać więcej kontekstu).\n\n**Krok 2: Rezonans Kulturowy**\n\n* Dobry rezonans z polską kulturą: Tak, żart odnosi się do powszechnego w Polsce stereotypu \"byłej inteligentnej\" AI (np. \"Była inteligentna, ale teraz jest tylko...\").\n* Markery kulturowe:\n + Użycie języka polskiego i odwoływanie się do lokalnych skrótów (np. \"error 404: brain not found\").\n + Przedstawienie AI jako inteligentną, ale niezbyt realistycznie.\n\nRezonans kulturowy: 9/10 (żart dobrze odnajduje się w polskiej kulturze i używa lokalnych skrótów).\n\n**Krok 3: Uniwersalne vs. Lokalne**\n\n* Czy jest uniwersalne czy specyficzne dla Polski? - Uniwersalne, ale z lokalnymi odniesieniami.\n* Dostępność dla niepolskiej publiczności: Tak, żart może być zrozumiany przez ludzi z innych kultur.\n\nUniwersalność: 7/10 (żart ma uniwersalny potencjał, ale zawiera elementy lokalne).\n\n**Krok 4: Siła Archetypu**\n\n* Silny jest archetyp? - Tak, żart używa silnego archetypu bohatera i antybohatera.\n* Czy jest stereotypowy czy zniuansowany? - Sugeruje się pewne stereotypy (np. inteligentna AI), ale żart nie jest całkowicie stereotypowy.\n\nScore archetypu: 9/10 (żart używa silnych archetypów i ma dobry potencjał do zrozumienia).\n\n**Format Wyjścia (JSON):**\n{\n  \"archetypes\": [\"bohater\", \"antybohater\"],\n  \"polish_specific\": false,\n  \"cultural_markers\": [\"była inteligentna AI\", \"error 404: brain not found\"],\n  \"cultural_resonance\": 9,\n  \"universality\": 7,\n  \"archetype_score\": 9\n}",
+          "elapsed_ms": 35404.15072441101,
+          "model": "llama3.1:8b"
+        },
+        {
+          "theory": "humor_atoms",
+          "success": true,
+          "analysis": {
+            "atoms_found": [
+              "emoji",
+              "exclamation",
+              "CAPS",
+              "repetition",
+              "sound_word"
+            ],
+            "atom_count": 6,
+            "atom_density": 8,
+            "atom_quality": 9,
+            "composition_score": 9,
+            "humor_atoms_score": 9
+          },
+          "raw_response": "Oto analiza żartu według ram Teorii Atomów Humoru:\n\n**Krok 1: Komponenty Atomowe**\n\n* Atomy znalezione:\n\t+ emoji (🤖, 💔)\n\t+ wykrzyknik (!)\n\t+ WIELKA LITERA w słowie \"Brzmi\" (BRZMI)\n\t+ powtórzenie („moja była” i „twierdziła że jest inteligentna” są podobne)\n\t+ odniesienie do błędu komputera (\"error 404: brain not found\")\n* Wszystkie znalezione atomy:\n\t+ emoji\n\t+ exclamation\n\t+ CAPS (WIELKA LITERA)\n\t+ repetition (powtórzenie)\n\t+ sound_word (odniesienie do błędu komputera)\n\n**Krok 2: Gęstość Atomów**\n\n* Ilość atomów na zdanie: 6\n* Gęstość jest idealna, nie za wysoka ani za niska.\n* Oceniam gęstość atomów: 8/10\n\n**Krok 3: Jakość Atomów**\n\n* Atomy są dobrze umieszczone i wzmacniają żart.\n* Odwołanie do błędu komputera dodaje humoru, a emoji uzupełniają ten efekt.\n* Oceniam jakość atomów: 9/10\n\n**Krok 4: Kompozycja Atomowa**\n\n* Atomy współpracują dobrze i tworzą synergiczną atmosferę.\n* Odwołanie do błędu komputera jest trafione, a WIELKA LITERA w słowie \"Brzmi\" dodaje efektu.\n* Oceniam kompozycję: 9/10\n\n**Format Wyjścia (JSON):**\n{\n  \"atoms_found\": [\"emoji\", \"exclamation\", \"CAPS\", \"repetition\", \"sound_word\"],\n  \"atom_count\": 6,\n  \"atom_density\": 8,\n  \"atom_quality\": 9,\n  \"composition_score\": 9,\n  \"humor_atoms_score\": 9\n}",
+          "elapsed_ms": 27430.188179016113,
+          "model": "llama3.1:8b"
+        },
+        {
+          "theory": "reverse_engineering",
+          "success": true,
+          "analysis": {
+            "core_mechanism": "absurd",
+            "structural_pattern": "porównanie nieoczekiwanego aspektu (AI) do osobistej doświadczenia (była)",
+            "mechanism_clarity": 8,
+            "mechanism_effectiveness": 9,
+            "replicability": 7,
+            "reverse_engineering_score": 8
+          },
+          "raw_response": "Oto analiza mechanizmu tego żartu w formacie JSON:\n\n{\n  \"core_mechanism\": \"absurd\",\n  \"structural_pattern\": \"porównanie nieoczekiwanego aspektu (AI) do osobistej doświadczenia (była)\",\n  \"mechanism_clarity\": 8,\n  \"mechanism_effectiveness\": 9,\n  \"replicability\": 7,\n  \"reverse_engineering_score\": 8\n}\n\nWytłumaczenie:\n\n* **Rdzenny mechanizm**: Absurd, ponieważ żart opiera się na nieoczekiwanym i absurdalnym porównaniu.\n* **Wzorzec strukturalny**: Porównanie nieoczekiwanego aspektu (AI) do osobistej doświadczenia (była). Jest to formułowany wzorzec, ponieważ opiera się na określonej strukturze.\n* **Skuteczność mechanizmu**: Bardzo skuteczny, ponieważ żart jest szybki i łatwy do zrozumienia. Mechanizm działa dobrze, ponieważ porównanie jest nieoczekiwanie zabawne.\n* **Replikowalność**: Średnia, ponieważ mechanizm może być użyty w innych kontekstach, ale może również być zbyt specyficzny dla tego konkretnego żartu.",
+          "elapsed_ms": 17306.07509613037,
+          "model": "llama3.1:8b"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_analyses": 9,
+    "successful_analyses": 9,
+    "failed_analyses": 0,
+    "total_time_ms": 244527.89878845215
+  }
+}

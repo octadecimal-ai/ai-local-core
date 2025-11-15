@@ -1,0 +1,50 @@
+{
+  "model": "llama3.1:8b",
+  "base_url": "http://localhost:11434",
+  "timestamp": "2025-11-14T17:08:28.757536",
+  "theories_tested": [
+    "setup_punchline"
+  ],
+  "jokes_tested": 1,
+  "results": [
+    {
+      "joke_id": 1,
+      "joke_text": "Automatyzacja z AI? Brzmi jak moja była - też twierdziła że jest inteligentna, a kończyło się na 'error 404: brain not found' 🤖💔",
+      "metadata": {
+        "line": 1,
+        "expected_theories": [
+          "incongruity",
+          "setup_punchline",
+          "semantic_shift"
+        ],
+        "context": "Tech + relationship humor, pierwszy żart Waldusia",
+        "emoji_count": 2
+      },
+      "results": [
+        {
+          "theory": "setup_punchline",
+          "success": true,
+          "analysis": {
+            "setup": "Automatyzacja z AI? Brzmi jak moja była",
+            "expectation_created": "o to, że nowa automatyzacja będzie inteligentna i efektywna",
+            "twist": "moment, kiedy autor dodaje 'error 404: brain not found'",
+            "new_frame": "rzeczywistość, w której AI jest tak samo głupia jak jego była partnerka",
+            "punchline": "komputerowe błędne oznaczenie 'brain not found' zamiast 'nie ma inteligencji'",
+            "why_it_works": "żart działa dzięki wykorzystaniu meta-humoru i parodii, pokazując, że autor jest świadomy ograniczeń swojej były partnerki i AI. To również umiejętność szybkiej zmiany kontekstu i wywołania niespodziewanego efektu komediowego.",
+            "timing_score": 8,
+            "structure_score": 9
+          },
+          "raw_response": "Oto analiza żartu w formacie JSON:\n\n{\n  \"setup\": \"Automatyzacja z AI? Brzmi jak moja była\",\n  \"expectation_created\": \"o to, że nowa automatyzacja będzie inteligentna i efektywna\",\n  \"twist\": \"moment, kiedy autor dodaje 'error 404: brain not found'\",\n  \"new_frame\": \"rzeczywistość, w której AI jest tak samo głupia jak jego była partnerka\",\n  \"punchline\": \"komputerowe błędne oznaczenie 'brain not found' zamiast 'nie ma inteligencji'\",\n  \"why_it_works\": \"żart działa dzięki wykorzystaniu meta-humoru i parodii, pokazując, że autor jest świadomy ograniczeń swojej były partnerki i AI. To również umiejętność szybkiej zmiany kontekstu i wywołania niespodziewanego efektu komediowego.\",\n  \"timing_score\": 8,\n  \"structure_score\": 9\n}",
+          "elapsed_ms": 19183.65478515625,
+          "model": "llama3.1:8b"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_analyses": 1,
+    "successful_analyses": 1,
+    "failed_analyses": 0,
+    "total_time_ms": 19183.65478515625
+  }
+}
