@@ -1,0 +1,104 @@
+{
+  "model": "bielik-7b",
+  "base_url": "http://localhost:11434",
+  "timestamp": "2025-11-14T17:07:41.074699",
+  "theories_tested": [
+    "setup_punchline",
+    "incongruity",
+    "semantic_shift",
+    "timing",
+    "absurd_escalation",
+    "psychoanalysis",
+    "archetype",
+    "humor_atoms",
+    "reverse_engineering"
+  ],
+  "jokes_tested": 1,
+  "results": [
+    {
+      "joke_id": 1,
+      "joke_text": "Automatyzacja z AI? Brzmi jak moja była - też twierdziła że jest inteligentna, a kończyło się na 'error 404: brain not found' 🤖💔",
+      "metadata": {
+        "line": 1,
+        "expected_theories": [
+          "incongruity",
+          "setup_punchline",
+          "semantic_shift"
+        ],
+        "context": "Tech + relationship humor, pierwszy żart Waldusia",
+        "emoji_count": 2
+      },
+      "results": [
+        {
+          "theory": "setup_punchline",
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1537983e0>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+          "elapsed_ms": 7.318735122680664,
+          "model": "bielik-7b"
+        },
+        {
+          "theory": "incongruity",
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x15379a060>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+          "elapsed_ms": 6.415128707885742,
+          "model": "bielik-7b"
+        },
+        {
+          "theory": "semantic_shift",
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x15379a690>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+          "elapsed_ms": 6.168842315673828,
+          "model": "bielik-7b"
+        },
+        {
+          "theory": "timing",
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x15379b170>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+          "elapsed_ms": 10.3912353515625,
+          "model": "bielik-7b"
+        },
+        {
+          "theory": "absurd_escalation",
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x15379b320>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+          "elapsed_ms": 5.132198333740234,
+          "model": "bielik-7b"
+        },
+        {
+          "theory": "psychoanalysis",
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x15379a5d0>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+          "elapsed_ms": 10.810136795043945,
+          "model": "bielik-7b"
+        },
+        {
+          "theory": "archetype",
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1537996d0>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+          "elapsed_ms": 4.3201446533203125,
+          "model": "bielik-7b"
+        },
+        {
+          "theory": "humor_atoms",
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x15379bf80>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+          "elapsed_ms": 4.519224166870117,
+          "model": "bielik-7b"
+        },
+        {
+          "theory": "reverse_engineering",
+          "success": false,
+          "error": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x15379b4a0>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+          "elapsed_ms": 5.635976791381836,
+          "model": "bielik-7b"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_analyses": 9,
+    "successful_analyses": 0,
+    "failed_analyses": 9,
+    "total_time_ms": 60.71162223815918
+  }
+}

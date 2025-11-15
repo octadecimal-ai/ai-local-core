@@ -1,0 +1,230 @@
+{
+  "model": "claude-3-haiku-20240307",
+  "temperature": 0.7,
+  "max_tokens": 2000,
+  "timestamp": "2025-11-14T17:50:44.676832",
+  "theories_tested": [
+    "setup_punchline",
+    "incongruity",
+    "semantic_shift",
+    "timing",
+    "absurd_escalation",
+    "psychoanalysis",
+    "archetype",
+    "humor_atoms",
+    "reverse_engineering"
+  ],
+  "jokes_tested": 1,
+  "results": [
+    {
+      "joke_id": 1,
+      "joke_text": "Automatyzacja z AI? Brzmi jak moja była - też twierdziła że jest inteligentna, a kończyło się na 'error 404: brain not found' 🤖💔",
+      "metadata": {
+        "line": 1,
+        "expected_theories": [
+          "incongruity",
+          "setup_punchline",
+          "semantic_shift"
+        ],
+        "context": "Tech + relationship humor, pierwszy żart Waldusia",
+        "emoji_count": 2
+      },
+      "results": [
+        {
+          "theory": "setup_punchline",
+          "success": true,
+          "analysis": {
+            "setup": "Automatyzacja z AI? Brzmi jak moja była",
+            "expectation_created": "Oczekujemy, że AI lub automatyzacja będzie podobna do byłej dziewczyny narratora, czyli będzie inteligentna.",
+            "twist": " - też twierdziła że jest inteligentna",
+            "new_frame": "Okazuje się, że była dziewczyna narratora mimo twierdzeń o swojej inteligencji, tak naprawdę była nieinteligentna.",
+            "punchline": "a kończyło się na 'error 404: brain not found' 🤖💔",
+            "why_it_works": "Żart działa, ponieważ tworzy kontrast między oczekiwaniem, że automatyzacja z AI będzie inteligentna, a rzeczywistością, że była dziewczyna narratora, mimo deklaracji, była głupia. Punchline rozwiązuje tę niespójność w zabawny sposób, porównując brak inteligencji byłej do błędu 404 oznaczającego brak mózgu.",
+            "timing_score": 9,
+            "structure_score": 9
+          },
+          "raw_response": "{\n  \"setup\": \"Automatyzacja z AI? Brzmi jak moja była\",\n  \"expectation_created\": \"Oczekujemy, że AI lub automatyzacja będzie podobna do byłej dziewczyny narratora, czyli będzie inteligentna.\",\n  \"twist\": \" - też twierdziła że jest inteligentna\",\n  \"new_frame\": \"Okazuje się, że była dziewczyna narratora mimo twierdzeń o swojej inteligencji, tak naprawdę była nieinteligentna.\",\n  \"punchline\": \"a kończyło się na 'error 404: brain not found' 🤖💔\",\n  \"why_it_works\": \"Żart działa, ponieważ tworzy kontrast między oczekiwaniem, że automatyzacja z AI będzie inteligentna, a rzeczywistością, że była dziewczyna narratora, mimo deklaracji, była głupia. Punchline rozwiązuje tę niespójność w zabawny sposób, porównując brak inteligencji byłej do błędu 404 oznaczającego brak mózgu.\",\n  \"timing_score\": 9,\n  \"structure_score\": 9\n}",
+          "elapsed_ms": 3905.895948410034,
+          "model": "claude-3-haiku-20240307",
+          "usage": {
+            "input_tokens": 584,
+            "output_tokens": 310
+          }
+        },
+        {
+          "theory": "incongruity",
+          "success": true,
+          "analysis": {
+            "incongruity_type": "zderzenie_ram",
+            "frame_1": "oczekiwania wobec automatyzacji z wykorzystaniem AI",
+            "frame_2": "doświadczenia z byłą partnerką, która twierdziła, że jest inteligentna, ale w rzeczywistości była nieinteligentnA",
+            "resolution_quality": "częściowo",
+            "surprise_factor": 8,
+            "accessibility": 7,
+            "incongruity_score": 8
+          },
+          "raw_response": "{\n  \"incongruity_type\": \"zderzenie_ram\",\n  \"frame_1\": \"oczekiwania wobec automatyzacji z wykorzystaniem AI\",\n  \"frame_2\": \"doświadczenia z byłą partnerką, która twierdziła, że jest inteligentna, ale w rzeczywistości była nieinteligentnA\",\n  \"resolution_quality\": \"częściowo\",\n  \"surprise_factor\": 8,\n  \"accessibility\": 7,\n  \"incongruity_score\": 8\n}\n\nKluczowa niespójność w tym żarcie polega na zderzeniu dwóch ram odniesienia - oczekiwań wobec inteligentnej automatyzacji z AI oraz doświadczeń z byłą partnerką, która okazała się nieinteligentnA. Oczekiwanie, że AI będzie inteligentne, zostaje naruszone przez porównanie do byłej, która także twierdziła, że jest inteligentna, ale w rzeczywistości nie posiadała \"mózgu\" (error 404). \n\nRozwiązanie tej niespójności jest częściowe - czytelnik może zrozumieć analogię, ale pełne pojednanie obu ram nie następuje. Siła niespójności jest wysoka - kontrast między oczekiwaniami wobec AI a doświadczeniami z byłą partnerką jest ekstremalny, a zwrot jest dość nieoczekiwany, generując silny element zaskoczenia (8/10). \n\nPrzetworzenie poznawcze jest umiarkowanie wymagające - czytelnik musi zrozumieć analogię, ale nie wymaga to specjalistycznej wiedzy (7/10).",
+          "elapsed_ms": 3589.8141860961914,
+          "model": "claude-3-haiku-20240307",
+          "usage": {
+            "input_tokens": 576,
+            "output_tokens": 434
+          }
+        },
+        {
+          "theory": "semantic_shift",
+          "success": true,
+          "analysis": {
+            "shifted_word": "inteligentna",
+            "original_meaning": "posiadająca zdolności umysłowe",
+            "new_meaning": "posiadająca sztuczną inteligencję",
+            "shift_type": "metafora",
+            "shift_smoothness": 8,
+            "ambiguity_quality": 8,
+            "wordplay_score": 8,
+            "semantic_shift_score": 9
+          },
+          "raw_response": "{\n  \"shifted_word\": \"inteligentna\",\n  \"original_meaning\": \"posiadająca zdolności umysłowe\",\n  \"new_meaning\": \"posiadająca sztuczną inteligencję\",\n  \"shift_type\": \"metafora\",\n  \"shift_smoothness\": 8,\n  \"ambiguity_quality\": 8,\n  \"wordplay_score\": 8,\n  \"semantic_shift_score\": 9\n}\n\nWyjaśnienie:\n1. Słowo \"inteligentna\" zmienia znaczenie z \"posiadająca zdolności umysłowe\" na \"posiadająca sztuczną inteligencję\".\n2. Jest to metaforyczne przesunięcie znaczenia, gdzie cecha \"inteligencji\" jest przeniesiona z ludzkiego umysłu na sztuczną inteligencję.\n3. Przesunięcie jest dość naturalne i płynne, ponieważ sztuczna inteligencja jest często określana jako \"inteligentna\".\n4. Wieloznaczność \"inteligentnej\" jest dobrze wykorzystana, ponieważ jest oczywista w kontekście porównania do byłej.\n5. Gra słów z \"error 404: brain not found\" jest sprytna i wzmacnia komiczny efekt, wydając się naturalną kontynuacją metafory.\n6. Ogólnie żart dobrze wykorzystuje teorię przesunięcia znaczeniowego, uzyskując wysoką ocenę semantyczną.",
+          "elapsed_ms": 4025.7837772369385,
+          "model": "claude-3-haiku-20240307",
+          "usage": {
+            "input_tokens": 585,
+            "output_tokens": 385
+          }
+        },
+        {
+          "theory": "timing",
+          "success": true,
+          "analysis": {
+            "pacing": "IDEALNE",
+            "sentence_lengths": [
+              9,
+              13
+            ],
+            "rhythm_variation": 8,
+            "pause_effectiveness": 9,
+            "delivery_timing": 9,
+            "timing_score": 9
+          },
+          "raw_response": "{\n  \"pacing\": \"IDEALNE\",\n  \"sentence_lengths\": [9, 13],\n  \"rhythm_variation\": 8,\n  \"pause_effectiveness\": 9,\n  \"delivery_timing\": 9,\n  \"timing_score\": 9\n}\n\nAnaliza:\nKrok 1: Analiza Tempa\n- Żart rozwija się w idealnym tempie, z narastającym napięciem prowadzącym do punchline'u.\n\nKrok 2: Wykrywanie Rytmu\n- Mamy dwa zdania o różnej długości (9 i 13 słów), co tworzy przyjemną wariację rytmu.\n- Ogólna jakość rytmu jest wysoka (8/10).\n\nKrok 3: Umiejscowienie Pauz\n- Naturalna pauza występuje przed punchline'em, zwiększając dramaturgię.\n- Efektywność pauz jest bardzo dobra (9/10).\n\nKrok 4: Timing Dostawy\n- Punchline jest dobrze wyważony i idealnie umieszczony.\n- Ocena dostawy to 9/10.\n\nPodsumowując, ogólny timing i rytm tego żartu są bardzo dobre, z idealnym tempem, dobrą wariacją rytmu, skutecznymi pauzami i dobrze umieszczonym punchline'em. Całościowa ocena to 9/10.",
+          "elapsed_ms": 2965.9790992736816,
+          "model": "claude-3-haiku-20240307",
+          "usage": {
+            "input_tokens": 490,
+            "output_tokens": 369
+          }
+        },
+        {
+          "theory": "absurd_escalation",
+          "success": true,
+          "analysis": {
+            "initial_absurdity": 8,
+            "escalation_present": true,
+            "escalation_levels": 2,
+            "logical_breaks": [
+              "Porównanie inteligentnej AI do byłej dziewczyny, która nie była inteligentna",
+              "Stwierdzenie, że AI kończy się na 'error 404: brain not found', sugerując brak inteligencji"
+            ],
+            "amplification_factor": 9,
+            "absurd_escalation_score": 9
+          },
+          "raw_response": "{\n  \"initial_absurdity\": 8,\n  \"escalation_present\": true,\n  \"escalation_levels\": 2,\n  \"logical_breaks\": [\n    \"Porównanie inteligentnej AI do byłej dziewczyny, która nie była inteligentna\",\n    \"Stwierdzenie, że AI kończy się na 'error 404: brain not found', sugerując brak inteligencji\"\n  ],\n  \"amplification_factor\": 9,\n  \"absurd_escalation_score\": 9\n}\n\nWyjaśnienie:\n1. Krok 1: Absurd jest wysoki (8/10), ponieważ porównanie inteligentnej AI do nieinteligentnej byłej dziewczyny jest dość absurdalne.\n2. Krok 2: Absurd eskaluje (tak) przez 2 poziomy - od porównania do stwierdzenia, że AI kończy się na \"error 404: brain not found\".\n3. Krok 3: Występują 2 załamania logiki - porównanie inteligentnej AI do nieinteligentnej osoby oraz stwierdzenie, że AI nie ma mózgu.\n4. Krok 4: Absurd wzmacnia się znacznie (9/10) od początkowego porównania do końcowego stwierdzenia o braku mózgu u AI.",
+          "elapsed_ms": 2624.237060546875,
+          "model": "claude-3-haiku-20240307",
+          "usage": {
+            "input_tokens": 481,
+            "output_tokens": 350
+          }
+        },
+        {
+          "theory": "psychoanalysis",
+          "success": true,
+          "analysis": {
+            "psychological_mechanism": "projekcja",
+            "characters": [
+              {
+                "name": "Była narrator",
+                "motivation": "Przedstawianie się jako inteligentna, ale w rzeczywistości niefunkcjonalna"
+              }
+            ],
+            "emotional_arc": "negatywny",
+            "conflict_present": true,
+            "resolution_present": true,
+            "subconscious_appeal": 8,
+            "psychoanalysis_score": 7
+          },
+          "raw_response": "{\n  \"psychological_mechanism\": \"projekcja\",\n  \"characters\": [\n    {\n      \"name\": \"Była narrator\",\n      \"motivation\": \"Przedstawianie się jako inteligentna, ale w rzeczywistości niefunkcjonalna\"\n    }\n  ],\n  \"emotional_arc\": \"negatywny\",\n  \"conflict_present\": true,\n  \"resolution_present\": true,\n  \"subconscious_appeal\": 8,\n  \"psychoanalysis_score\": 7\n}\n\nWyjaśnienie:\n1. Głębia Psychologiczna:\n   - Mechanizm psychologiczny: Projekcja - narrator przypisuje swojej byłej cechy, które w rzeczywistości może sam posiadać (brak inteligencji).\n   - Głębia psychologiczna: 7/10 - żart dotyka głębszych tematów związanych z własną niewystarczalnością i potrzebą obrony własnego ego.\n\n2. Analiza Postaci:\n   - Postacie: Narrator i jego była.\n   - Motywacje: Była chce przedstawiać się jako inteligentna, narrator demaskuje jej prawdziwą naturę.\n   - Głębia postaci: 6/10 - postacie są zarysowane dość powierzchownie, ale dobrze ilustrują dynamikę między nimi.\n\n3. Łuk Narracyjny:\n   - Łuk emocjonalny: Negatywny - żart kończy się porażką i rozczarowaniem.\n   - Konflikt i rozwiązanie: Obecne - konflikt między wyobrażeniem a rzeczywistością, rozwiązany przez sarkastyczne podsumowanie.\n   - Jakość narracji: 7/10 - prosta, ale skuteczna narracja, prowadząca do satysfakcjonującego zakończenia.\n\n4. Apel Podświadomy:\n   - Podświadome pragnienie/strach: Strach przed brakiem inteligencji i niewystarczalnością.\n   - Uniwersalność apelu: Dość uniwersalny - większość ludzi doświadcza lęku przed byciem postrzeganym jako mniej inteligentni niż inni.\n   - Ocena apelu podświadomego: 8/10 - żart dotyka głęboko zakorzenionych lęków i potrzeby obrony własnego ego.",
+          "elapsed_ms": 5375.033855438232,
+          "model": "claude-3-haiku-20240307",
+          "usage": {
+            "input_tokens": 533,
+            "output_tokens": 619
+          }
+        },
+        {
+          "theory": "archetype",
+          "success": true,
+          "analysis": {
+            "archetypes": [
+              "antybohater",
+              "błazen"
+            ],
+            "polish_specific": true,
+            "cultural_markers": [
+              "odniesienie do byłej partnerki",
+              "stereotypy dotyczące inteligencji kobiet"
+            ],
+            "cultural_resonance": 8,
+            "universality": 5,
+            "archetype_score": 7
+          },
+          "raw_response": "{\n  \"archetypes\": [\"antybohater\", \"błazen\"],\n  \"polish_specific\": true,\n  \"cultural_markers\": [\"odniesienie do byłej partnerki\", \"stereotypy dotyczące inteligencji kobiet\"],\n  \"cultural_resonance\": 8,\n  \"universality\": 5,\n  \"archetype_score\": 7\n}\n\nWyjaśnienie:\n\nKrok 1: Identyfikacja Archetypów\n- Głównym archetypem jest antybohater - osoba, która wyśmiewa inną osobę, w tym przypadku byłą partnerkę.\n- Występuje także archetyp błazna, który posługuje się ironią i czarnym humorem, aby zdyskredytować kogoś.\n- Oba archetypy są dość klarowne i łatwo identyfikowalne, ocena klarowności 8/10.\n\nKrok 2: Rezonans Kulturowy\n- Żart silnie rezonuje z polską kulturą, zawiera typowe polskie stereotypy na temat kobiet i ich inteligencji.\n- Odniesienie do \"byłej\" jest bardzo charakterystyczne dla polskiego kontekstu kulturowego.\n- Ocena rezonansu kulturowego 8/10.\n\nKrok 3: Uniwersalne vs. Lokalne\n- Żart jest dość specyficzny dla polskiej kultury, odwołuje się do lokalnych stereotypów i kontekstów.\n- Dla niepolskiej publiczności może być trudny do zrozumienia i mniej zabawny.\n- Ocena uniwersalności 5/10.\n\nKrok 4: Siła Archetypu\n- Archetyp antybohater-błazen jest silnie zarysowany i stereotypowy, ale jednocześnie zniuansowany - odnosi się do konkretnej sytuacji (była partnerka).\n- Siła archetypu jest dość wysoka, ocena 7/10.",
+          "elapsed_ms": 4672.849178314209,
+          "model": "claude-3-haiku-20240307",
+          "usage": {
+            "input_tokens": 503,
+            "output_tokens": 499
+          }
+        },
+        {
+          "theory": "humor_atoms",
+          "success": true,
+          "analysis": {
+            "atoms_found": [
+              "emoji",
+              "exclamation",
+              "CAPS",
+              "repetition"
+            ],
+            "atom_count": 10,
+            "atom_density": 8,
+            "atom_quality": 8,
+            "composition_score": 9,
+            "humor_atoms_score": 9
+          },
+          "raw_response": "{\n  \"atoms_found\": [\"emoji\", \"exclamation\", \"CAPS\", \"repetition\"],\n  \"atom_count\": 10,\n  \"atom_density\": 8,\n  \"atom_quality\": 8,\n  \"composition_score\": 9,\n  \"humor_atoms_score\": 9\n}\n\nKrok 1: Komponenty Atomowe\nZidentyfikowane elementy tworzące humor to: emoji 🤖💔, wykrzyknik (!), WIELKIE_LITERY (AI), powtórzenia (\"twierdziła\", \"też\").\n\nKrok 2: Gęstość Atomów\nLiczba atomów humoru w żarcie to 10, co tworzy wysoką, ale nie przytłaczającą gęstość. Oceniam gęstość na 8/10.\n\nKrok 3: Jakość Atomów\nAtomy są dobrze umieszczone i wzmacniają się wzajemnie, tworząc spójny obraz. Oceniam jakość atomów na 8/10.\n\nKrok 4: Kompozycja Atomowa\nAtomy współpracują ze sobą, tworząc synergię i spójną całość. Oceniam kompozycję na 9/10.\n\nPodsumowując, żart wykorzystuje szereg dobrze dobranych elementów humorystycznych, które tworzą zabawną i spójną całość. Ogólna ocena to 9/10 w skali humoru atomowego.",
+          "elapsed_ms": 3450.6208896636963,
+          "model": "claude-3-haiku-20240307",
+          "usage": {
+            "input_tokens": 500,
+            "output_tokens": 385
+          }
+        },
+        {
+          "theory": "reverse_engineering",
+          "success": false,
+          "error": "JSON parsing failed",
+          "raw_response": "{\n  \"core_mechanism\": \"gra_słów\",\n  \"structural_pattern\": \"Porównanie AI do byłej partnerki, wykorzystując grę słów na podobieństwie między \"inteligencja\" a komunikatem o błędzie 404\",\n  \"mechanism_clarity\": 8,\n  \"mechanism_effectiveness\": 8,\n  \"replicability\": 8,\n  \"reverse_engineering_score\": 8\n}",
+          "elapsed_ms": 1320.1930522918701,
+          "model": "claude-3-haiku-20240307"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_analyses": 9,
+    "successful_analyses": 8,
+    "failed_analyses": 1,
+    "total_time_ms": 31930.40704727173
+  }
+}
