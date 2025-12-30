@@ -49,3 +49,8 @@ build/
 dist/
 *.egg-info/
 
+
+# Wrażliwe pliki - 2025-12-30
+docs/tunnel-setup.md
+docs/ovh-server-setup.md
+scripts/setup-nginx-ovh.sh
